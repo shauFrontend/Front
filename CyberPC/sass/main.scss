@@ -6,22 +6,24 @@ font-family: 'Poppins', sans-serif;
 
 // colors
 
-$bg1 : #0F0F0F;
-$color-text: #FFFFFF;
-$btn-color: (229.81deg, #31FF6B -29.08%, #84FF0A 32.59%, #66FF31 111.89%);
-$btn-color-text: #000000;
+$bg1 : #0F0F0F; // основной бг
+$color-text: #FFFFFF; // текст цвет
+$btn-color: (229.81deg, #31FF6B -29.08%, #84FF0A 32.59%, #66FF31 111.89%); // цвет кнопка
+$btn-color-text: #000000; // цвет текса в кнопке
 
 
 
 //BLOCK
 @import "./Block/reset";
 @import "./Block/global";
+@import "./Block/nav";
 @import "./Block/header";
+@import "./Block/main__block";
+
 
 
 //COMPONENTS
 @import "./components/logo";
 @import "./components/menu";
-@import "./components/nav";
 @import "./components/burger";
 

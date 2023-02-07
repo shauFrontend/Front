@@ -74,45 +74,13 @@ select {
 }
 body {
   background-color: #0F0F0F;
+  font-family: "Manrope", sans-serif;
 }
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
   width: 1430px;
-}
-
-.header__block {
-  min-height: 992px;
-  background-image: url("/img/header.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  justify-content: center;
-  display: flex;
-}
-
-.btn__header {
-  justify-content: center;
-  padding: 869px 796px 130px;
-  color: none;
-}
-
-button {
-  display: inline-block;
-  background: linear-gradient(229.81deg, #31FF6B -29.08%, #84FF0A 32.59%, #66FF31 111.89%);
-  height: 81px;
-  width: 328px;
-  padding: 24px 40px;
-  border-radius: 53px;
-  border: none;
-  font-size: 20px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.logo {
-  width: 120px;
-  height: 52px;
 }
 
 .nav-row {
@@ -137,6 +105,68 @@ button {
   color: #FFFFFF;
   -webkit-text-decoration: 0;
           text-decoration: 0;
+}
+
+.header__block {
+  min-height: 992px;
+  background-image: url("/img/header/header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+}
+
+.btn__header {
+  display: flex;
+  justify-content: center;
+  padding: 869px 796px 130px;
+  color: none;
+}
+
+button {
+  display: inline-block;
+  vertical-align: middle;
+  background: linear-gradient(to bottom, #31FF6B, #84FF0A, #66FF31);
+  background-origin: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 81px;
+  width: 328px;
+  padding: 24px 40px;
+  border-radius: 53px;
+  border: none;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.header__container {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+.slider {
+  padding-top: 180px;
+}
+
+.slider-track {
+  display: flex;
+  -moz-column-gap: 52px;
+       column-gap: 52px;
+}
+
+.logo {
+  width: 120px;
+  height: 52px;
 }
 
 .button-menu {

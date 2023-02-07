@@ -1,0 +1,17 @@
+.header__container {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.slider {
+    padding-top: 180px;
+}
+
+.slider-track {
+    display: flex;
+    column-gap: 52px;
+}
