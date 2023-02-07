@@ -66,10 +66,8 @@ select {
 
 @media (prefers-reduced-motion: reduce) {
   * {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
@@ -99,16 +97,17 @@ body {
   color: none;
 }
 
-.btn-text {
+button {
   display: inline-block;
   background: linear-gradient(229.81deg, #31FF6B -29.08%, #84FF0A 32.59%, #66FF31 111.89%);
   height: 81px;
   width: 328px;
-  font-size: 20px;
-  text-decoration: none;
   padding: 24px 40px;
   border-radius: 53px;
   border: none;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .logo {
