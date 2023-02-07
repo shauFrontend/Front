@@ -1,0 +1,146 @@
+/* fonts
+font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  background-color: #0F0F0F;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1430px;
+}
+
+.header__block {
+  min-height: 992px;
+  background-image: url("/img/header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+}
+
+.btn__header {
+  justify-content: center;
+  padding: 869px 796px 130px;
+  color: none;
+}
+
+.btn-text {
+  display: inline-block;
+  background: linear-gradient(229.81deg, #31FF6B -29.08%, #84FF0A 32.59%, #66FF31 111.89%);
+  height: 81px;
+  width: 328px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 24px 40px;
+  border-radius: 53px;
+  border: none;
+}
+
+.logo {
+  width: 120px;
+  height: 52px;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 31px 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+
+.navigation-link {
+  color: #FFFFFF;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+}
+
+.button-menu {
+  background-color: #0F0F0F;
+  border: none;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-text;
+    padding: 31px 0;
+}
+
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+
+.navigation-link {
+    color: $color-text;
+    text-decoration: 0;
+}

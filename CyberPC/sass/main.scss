@@ -1,0 +1,27 @@
+/* fonts
+font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+// colors
+
+$bg1 : #0F0F0F;
+$color-text: #FFFFFF;
+$btn-color: (229.81deg, #31FF6B -29.08%, #84FF0A 32.59%, #66FF31 111.89%);
+$btn-color-text: #000000;
+
+
+
+//BLOCK
+@import "./Block/reset";
+@import "./Block/global";
+@import "./Block/header";
+
+
+//COMPONENTS
+@import "./components/logo";
+@import "./components/menu";
+@import "./components/nav";
+@import "./components/burger";
+

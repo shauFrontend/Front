@@ -1,0 +1,25 @@
+.header__block {
+    min-height: 992px;
+    background-image: url('/img/header.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+}
+.btn__header {
+    justify-content: center;
+    padding: 869px 796px 130px;
+    color: none;
+    
+}
+.btn-text {
+    display: inline-block;
+    background: linear-gradient(229.81deg, #31FF6B -29.08%, #84FF0A 32.59%, #66FF31 111.89%);
+    height: 81px;
+    width: 328px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 24px 40px; 
+    border-radius: 53px;
+    border: none;
+}
