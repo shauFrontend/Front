@@ -144,24 +144,60 @@ button:hover {
   transition: 0.2s;
 }
 
-.header__container {
-  width: 1920px;
+.main__container {
+  width: 1950px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 160px 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center;
+  background-image: url("/img/Ellipse green.png"), url("/img/Ellipse purple.png");
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 40%;
 }
 
-.slider {
-  padding-top: 180px;
+.main_wrapper {
+  color: #FFFFFF;
+}
+
+.main_img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.main__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  height: 174px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__title e {
+  color: #6EFF24;
+}
+
+.main__title i {
+  font-style: normal;
+  color: #9124FF;
 }
 
 .slider-track {
   display: flex;
-  -moz-column-gap: 52px;
-       column-gap: 52px;
+  padding-top: 40px;
+  gap: 52px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 72px;
 }
 
 .logo {

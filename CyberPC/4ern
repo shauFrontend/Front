@@ -1,0 +1,23 @@
+        <div class="slider">
+            <div class="slider-track">
+                <div class="slide">
+                    <img src="./img/slider/cyberpunk.png" width="240" height="280" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slider/dota2.png" width="240" height="280" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slider/csgo.png" width="240" height="280" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slider/valorant.png" width="240" height="280" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slider/pubg.png" width="240" height="280" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slider/league of legend.png" width="240" height="280" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/slider/apex.png" width="240" height="280" alt="">
+                </div>
