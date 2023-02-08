@@ -107,9 +107,14 @@ body {
           text-decoration: 0;
 }
 
+.container-block {
+  margin: 0 auto;
+  width: 1864px;
+}
+
 .header__block {
-  min-height: 992px;
   background-image: url("/img/header/header.png");
+  background-size: 1920px 1080px;
   background-position: center;
   background-repeat: no-repeat;
   justify-content: center;
@@ -117,9 +122,11 @@ body {
 }
 
 .btn__header {
+  width: 1880px;
+  height: 1080px;
   display: flex;
+  padding-top: 869px;
   justify-content: center;
-  padding: 869px 796px 130px;
   color: none;
 }
 
@@ -144,20 +151,22 @@ button:hover {
   transition: 0.2s;
 }
 
+.main {
+  width: 1430px;
+  padding: 15px;
+}
+
 .main__container {
-  width: 1920px;
-  margin: 0 auto;
-  padding: 160px 15px;
+  width: 1400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/img/Ellipse green.png"), url("/img/Ellipse purple.png");
   background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 46%;
+  position: relative;
 }
 
 .main_wrapper {
+  width: 1864px;
   color: #FFFFFF;
 }
 
@@ -168,14 +177,13 @@ button:hover {
 }
 
 .main__title {
+  width: 1400px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   height: 174px;
   text-align: center;
-  align-items: center;
-  justify-content: center;
   text-transform: uppercase;
 }
 
@@ -188,20 +196,82 @@ button:hover {
   color: #9124FF;
 }
 
+.slider-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1820px;
+  overflow: hidden;
+}
+
+.slide {
+  animation-name: move;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-65px);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
 .slider-track {
-  width: 2366px;
+  width: 1850px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 40px;
   gap: 52px;
+  overflow: hidden;
 }
 
 .btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 72px;
+  padding-top: 72px;
+}
+
+.about {
+  width: 1800px;
+}
+
+.about__settings {
+  color: #FFFFFF;
+  padding-top: 111px;
+}
+
+.about__settings strong {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about__wrapper {
+  width: 1850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__container {
+  height: 400px;
+  color: #FFFFFF;
+}
+
+.about__phone {
+  width: 567px;
+  height: 197px;
+}
+
+.about_info {
+  width: 567px;
+  height: 197px;
 }
 
 .logo {

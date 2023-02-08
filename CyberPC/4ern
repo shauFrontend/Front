@@ -1,23 +1,21 @@
-        <div class="slider">
-            <div class="slider-track">
-                <div class="slide">
-                    <img src="./img/slider/cyberpunk.png" width="240" height="280" alt="">
-                </div>
-                <div class="slide">
-                    <img src="./img/slider/dota2.png" width="240" height="280" alt="">
-                </div>
-                <div class="slide">
-                    <img src="./img/slider/csgo.png" width="240" height="280" alt="">
-                </div>
-                <div class="slide">
-                    <img src="./img/slider/valorant.png" width="240" height="280" alt="">
-                </div>
-                <div class="slide">
-                    <img src="./img/slider/pubg.png" width="240" height="280" alt="">
-                </div>
-                <div class="slide">
-                    <img src="./img/slider/league of legend.png" width="240" height="280" alt="">
-                </div>
-                <div class="slide">
-                    <img src="./img/slider/apex.png" width="240" height="280" alt="">
-                </div>
+<img src="./img/main/phone.png" height="78" width="78" alt="">
+<p>
+    Современное круглосуточное киберспортивное                  
+</p>
+<p>
+    пространство с 57 пк, 4 зонами, 3 VIP-комнатами
+</p>
+<p>
+    и собственным меню и авторскими коктейлями!
+</p>
+<div class="about_info">
+<img src="./img/main/info.png" height="78" width="78" alt="">
+<p>
+    Адрес: Ломонсовский проспект, 29к3, Москва;
+</p>
+<p>
+    Телефон: +7 (999) 099-43-33
+</p>
+<p>
+    Время работы: круглосуточно
+</p>

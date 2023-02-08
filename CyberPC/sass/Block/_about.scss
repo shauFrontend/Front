@@ -1,0 +1,33 @@
+.about {
+    width: 1800px;
+}
+.about__settings {
+    color: $color-text;
+    padding-top: 111px;
+}
+
+.about__settings strong{
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.about__wrapper {
+    width: 1850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container {
+    height: 400px;
+    color: $color-text;
+}
+.about__phone {
+    width: 567px;
+    height: 197px;
+}
+.about_info {
+    width: 567px;
+    height: 197px;
+}
