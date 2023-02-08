@@ -145,7 +145,7 @@ button:hover {
 }
 
 .main__container {
-  width: 1950px;
+  width: 1920px;
   margin: 0 auto;
   padding: 160px 15px;
   display: flex;
@@ -153,8 +153,8 @@ button:hover {
   justify-content: center;
   background-image: url("/img/Ellipse green.png"), url("/img/Ellipse purple.png");
   background-repeat: no-repeat;
-  background-position-x: 98%;
-  background-position-y: 40%;
+  background-position-x: 100%;
+  background-position-y: 46%;
 }
 
 .main_wrapper {
@@ -176,6 +176,7 @@ button:hover {
   text-align: center;
   align-items: center;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 .main__title e {
@@ -188,7 +189,10 @@ button:hover {
 }
 
 .slider-track {
+  width: 2366px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 40px;
   gap: 52px;
 }
