@@ -19,6 +19,12 @@
     color: none;
     
 }
+.btn__block {
+    display: flex;
+    gap: 10px;
+    font-weight: 700;
+}
+
 
 
 button {
@@ -31,11 +37,13 @@ button {
     width: 328px;
     padding: 24px 40px; 
     border-radius: 53px;
+    font-weight: 700;
     border: none;
     font-size: 20px;
     text-decoration: none;
     cursor: pointer;
 }
+
 
 button:hover {
     opacity: .8;

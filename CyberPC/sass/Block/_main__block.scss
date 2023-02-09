@@ -11,7 +11,7 @@
     position: relative;
 }
 .main_wrapper {
-    width: 1864px;
+    width: 1400px;
     color: $color-text;
 }
 .main_img {
@@ -47,7 +47,7 @@
 .slide {
     
     animation-name: move;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-delay: -1;
     animation-iteration-count: infinite;
