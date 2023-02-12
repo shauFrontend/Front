@@ -2,9 +2,23 @@ body {
     background-color: $bg1;
     font-family: 'Manrope', sans-serif;
 }
+main{
+    width: 1980px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
 
 .container {
     margin: 0 auto;
     padding: 0 15px;
     width: 1430px;
+    justify-content: space-between;
+}
+
+.main__container {
+    margin: 0 auto;
+    width: 1920px;
+    justify-content: space-between;
+    padding-bottom: 80px;
 }

@@ -77,10 +77,24 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+main {
+  width: 1980px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
   width: 1430px;
+  justify-content: space-between;
+}
+
+.main__container {
+  margin: 0 auto;
+  width: 1920px;
+  justify-content: space-between;
+  padding-bottom: 80px;
 }
 
 .nav-row {
@@ -156,11 +170,6 @@ button {
 button:hover {
   opacity: 0.8;
   transition: 0.2s;
-}
-
-.main {
-  width: 1430px;
-  padding: 15px;
 }
 
 .main__container {
@@ -246,7 +255,6 @@ button:hover {
 
 .about {
   width: 1400px;
-  display: flex;
 }
 
 .about__settings {
@@ -260,21 +268,58 @@ button:hover {
 .about__text {
   width: 1271px;
   display: flex;
+  justify-content: space-between;
   padding-top: 60px;
+  padding-bottom: 80px;
 }
 
-.about__phone {
+.about__green {
+  width: 567px;
   color: #FFFFFF;
   font-weight: 400;
   font-size: 24px;
-  padding-bottom: 100px;
 }
 
-.about_info {
+.about_purple {
   color: #FFFFFF;
-  padding-left: 137px;
   font-weight: 400;
   font-size: 24px;
+  width: 567px;
+}
+
+.main2__container {
+  width: 1668px;
+  display: flex;
+  margin-left: 275px;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.cool__devices {
+  padding-top: 59px;
+}
+
+.cool_text1 {
+  padding-bottom: 40px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 64px;
+  width: 567px;
+}
+
+.cool_text1 strong {
+  color: #9124FF;
+}
+
+.cool__text2 {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.about__devices__img {
+  width: 960px;
+  height: 517px;
 }
 
 .logo {
